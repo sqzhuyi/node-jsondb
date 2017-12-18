@@ -1,10 +1,26 @@
 {
-    "name": "node-jsondb",
-    "description": "直接将json存储在本地文件，最轻便的数据库",  
-    "version": "0.1.0",
-    "license": "MIT",
-    "author": {
-        "name": "朱乙",
-        "email": "sqzhuyi@gmail.com"
-    }
+  "name": "node-jsondb",
+  "description": "直接将json存储在本地文件，最轻便的数据库",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "朱乙 <sqzhuyi@gmail.com>",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqzhuyi/node-jsondb.git"
+  },
+  "keywords": [
+    "database"
+  ],
+  "bugs": {
+    "url": "https://github.com/sqzhuyi/node-jsondb/issues"
+  },
+  "homepage": "https://github.com/sqzhuyi/node-jsondb#readme"
 }
